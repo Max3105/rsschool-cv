@@ -1,0 +1,12 @@
+int max(int mas[4] = { 1,2,3,4 })
+{
+	int maxEl = mas[0];
+	for (int i = 0; i < 4; i++)
+	{
+		if (maxEl < mas[i])
+		{
+			maxEl = mas[i];
+		}
+	}
+	return maxEL;
+}
